@@ -25,6 +25,11 @@ always available with invariable parameters and the clients don’t need to know
 ![](https://raw.githubusercontent.com/insogin/AppChatRoom_6.3/HEAD/screenshot1/chat.jpg)
 
 
+
+
+
+
+
 ## Outline of the code
 
 The flow chart of the application is shown as follows, the aforementioned three  
