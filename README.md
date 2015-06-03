@@ -27,6 +27,9 @@ always available with invariable parameters and the clients don’t need to know
 
 ## Outline of the code
 
+The flow chart of the application is shown as follows, the aforementioned three  
+activities are the basic processes to interact with users directly.
+
 ![](https://raw.githubusercontent.com/insogin/AppChatRoom_6.3/HEAD/screenshot1/Activity.jpg)
 
 #### UserLoginActivity.java
@@ -101,5 +104,3 @@ in the process of my learning.
 
 ### Contact me
 * yangwenjincshn@gmail.com
-
-
