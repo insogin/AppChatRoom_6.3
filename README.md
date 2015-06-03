@@ -30,56 +30,56 @@ always available with invariable parameters and the clients don’t need to know
 ![](https://raw.githubusercontent.com/insogin/AppChatRoom_6.3/HEAD/screenshot1/Activity.jpg)
 
 #### UserLoginActivity.java
-The [`UserLoginActivity.java`](https://github.com/insogin/AppChatRoom6.3/blob/master/src/com/wenjin/chatroom/UserLoginActivity.java) handles the avivity of login, in which the view of `login.xml`  
+The [`UserLoginActivity.java`](https://github.com/insogin/AppChatRoom_6.3/blob/HEAD/src/com/wenjin/chatroom/UserLoginActivity.java) handles the avivity of login, in which the view of `login.xml`  
 is setted.
 
 #### UserRegisActivity.java
-The [`UserRegisActivity.java`](https://github.com/insogin/AppChatRoom6.3/blob/master/src/com/wenjin/chatroom/UserRegisActivity.java) handles the activity of register, in which the view of  
+The [`UserRegisActivity.java`](https://github.com/insogin/AppChatRoom_6.3/blob/HEAD/src/com/wenjin/chatroom/UserRegisActivity.java) handles the activity of register, in which the view of  
 `register.xml`is setted.
 
 #### ChatActivity.java
-The [`ChatActivity.java`](https://github.com/insogin/AppChatRoom6.3/blob/master/src/com/wenjin/chatroom/ChatActivity.java) cooperates many other classes to handle the real time chat  
+The [`ChatActivity.java`](https://github.com/insogin/AppChatRoom_6.3/blob/HEAD/src/com/wenjin/chatroom/ChatActivity.java) cooperates many other classes to handle the real time chat  
 activity, in which the view of `main.xml` is setted.
 
 #### ChatMsgViewAdapter.java
-The [`ChatMsgViewAdapter.java`](https://github.com/insogin/AppChatRoom6.3/blob/master/src/com/wenjin/adapter/ChatMsgViewAdapter.java) is an adapter of ListView (id: lv_message), in the  
+The [`ChatMsgViewAdapter.java`](https://github.com/insogin/AppChatRoom_6.3/blob/HEAD/src/com/wenjin/adapter/ChatMsgViewAdapter.java) is an adapter of ListView (id: lv_message), in the  
 `main.xml`.
 
 #### ExpressionGvAdapter.java
-The [`ExpressionGvAdapter.java`](https://github.com/insogin/AppChatRoom6.3/blob/master/src/com/wenjin/adapter/ExpressionGvAdapter.java) is an adapter of GridView, in the `express_gv.xml`.
+The [`ExpressionGvAdapter.java`](https://github.com/insogin/AppChatRoom_6.3/blob/HEAD/src/com/wenjin/adapter/ExpressionGvAdapter.java) is an adapter of GridView, in the `express_gv.xml`.
 
 #### Message.java
-The [`Message.java`](https://github.com/insogin/AppChatRoom6.3/blob/master/src/com/wenjin/bean/Message.java) is a class to deal with the communication with the server.
+The [`Message.java`](https://github.com/insogin/AppChatRoom_6.3/blob/HEAD/src/com/wenjin/bean/Message.java) is a class to deal with the communication with the server.
 
 #### User.java
-The [`User.java`](https://github.com/insogin/AppChatRoom6.3/blob/master/src/com/wenjin/bean/User.java) defines methods to manipulate many private variables.
+The [`User.java`](https://github.com/insogin/AppChatRoom_6.3/blob/master/src/com/wenjin/bean/User.java) defines methods to manipulate many private variables.
 
 #### ContentFlag.java
-The [`ContentFlag.java`](https://github.com/insogin/AppChatRoom6.3/blob/master/src/com/wenjin/constant/ContentFlag.java) sets three flags of user, corresponding to the states of  
+The [`ContentFlag.java`](https://github.com/insogin/AppChatRoom_6.3/blob/master/src/com/wenjin/constant/ContentFlag.java) sets three flags of user, corresponding to the states of  
 "online", "offline" and "register".
 
 #### UserDbHelper.java
-The [`UserDbHelper.java`](https://github.com/insogin/AppChatRoom6.3/blob/master/src/com/wenjin/db/UserDbHelper.java) is an auxiliary class of SQLite data base to handle the users'  
+The [`UserDbHelper.java`](https://github.com/insogin/AppChatRoom_6.3/blob/master/src/com/wenjin/db/UserDbHelper.java) is an auxiliary class of SQLite data base to handle the users'  
 information.
 
 #### IhandleMessage.java
-The [`IhandleMessage.java`](https://github.com/insogin/AppChatRoom6.3/blob/master/src/com/wenjin/impl/IhandleMessge.java) serves as an interface to handle the message.
+The [`IhandleMessage.java`](https://github.com/insogin/AppChatRoom_6.3/blob/master/src/com/wenjin/impl/IhandleMessge.java) serves as an interface to handle the message.
 
 #### MessageService.java
-The [`MessageService.java`](https://github.com/insogin/AppChatRoom6.3/blob/master/src/com/wenjin/service/MessageService.java) builds the connection to the server and handle the sending  
+The [`MessageService.java`](https://github.com/insogin/AppChatRoom_6.3/blob/master/src/com/wenjin/service/MessageService.java) builds the connection to the server and handle the sending  
 and receiving messages.
 
 #### RegisterService.java
-The [`RegisterService.java`](https://github.com/insogin/AppChatRoom6.3/blob/master/src/com/wenjin/service/RegisterService.java) handles the register message of a new user.
+The [`RegisterService.java`](https://github.com/insogin/AppChatRoom_6.3/blob/master/src/com/wenjin/service/RegisterService.java) handles the register message of a new user.
 
 #### UserService.java
-The [`UserService.java`](https://github.com/insogin/AppChatRoom6.3/blob/master/src/com/wenjin/service/UserService.java) is a class of tool to deal with data stream.
+The [`UserService.java`](https://github.com/insogin/AppChatRoom_6.3/blob/master/src/com/wenjin/service/UserService.java) is a class of tool to deal with data stream.
 
 #### ExpressionUtil.java
-THe [`ExpressionUtil.java`](https://github.com/insogin/AppChatRoom6.3/blob/master/src/com/wenjin/tool/ExpressionUtil.java) is used to handle the message of expression.
+THe [`ExpressionUtil.java`](https://github.com/insogin/AppChatRoom_6.3/blob/master/src/com/wenjin/tool/ExpressionUtil.java) is used to handle the message of expression.
 
 #### StreamTool.java
-[`StreamTool`](https://github.com/insogin/AppChatRoom6.3/blob/master/src/com/wenjin/tool/StreamTool.java)
+[`StreamTool`](https://github.com/insogin/AppChatRoom_6.3/blob/master/src/com/wenjin/tool/StreamTool.java)
 
 
 
