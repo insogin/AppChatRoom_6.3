@@ -52,34 +52,34 @@ The [`ExpressionGvAdapter.java`](https://github.com/insogin/AppChatRoom_6.3/blob
 The [`Message.java`](https://github.com/insogin/AppChatRoom_6.3/blob/HEAD/src/com/wenjin/bean/Message.java) is a class to deal with the communication with the server.
 
 #### User.java
-The [`User.java`](https://github.com/insogin/AppChatRoom_6.3/blob/master/src/com/wenjin/bean/User.java) defines methods to manipulate many private variables.
+The [`User.java`](https://github.com/insogin/AppChatRoom_6.3/blob/HEAD/src/com/wenjin/bean/User.java) defines methods to manipulate many private variables.
 
 #### ContentFlag.java
-The [`ContentFlag.java`](https://github.com/insogin/AppChatRoom_6.3/blob/master/src/com/wenjin/constant/ContentFlag.java) sets three flags of user, corresponding to the states of  
+The [`ContentFlag.java`](https://github.com/insogin/AppChatRoom_6.3/blob/HEAD/src/com/wenjin/constant/ContentFlag.java) sets three flags of user, corresponding to the states of  
 "online", "offline" and "register".
 
 #### UserDbHelper.java
-The [`UserDbHelper.java`](https://github.com/insogin/AppChatRoom_6.3/blob/master/src/com/wenjin/db/UserDbHelper.java) is an auxiliary class of SQLite data base to handle the users'  
+The [`UserDbHelper.java`](https://github.com/insogin/AppChatRoom_6.3/blob/HEAD/src/com/wenjin/db/UserDbHelper.java) is an auxiliary class of SQLite data base to handle the users'  
 information.
 
 #### IhandleMessage.java
-The [`IhandleMessage.java`](https://github.com/insogin/AppChatRoom_6.3/blob/master/src/com/wenjin/impl/IhandleMessge.java) serves as an interface to handle the message.
+The [`IhandleMessage.java`](https://github.com/insogin/AppChatRoom_6.3/blob/HEAD/src/com/wenjin/impl/IhandleMessge.java) serves as an interface to handle the message.
 
 #### MessageService.java
-The [`MessageService.java`](https://github.com/insogin/AppChatRoom_6.3/blob/master/src/com/wenjin/service/MessageService.java) builds the connection to the server and handle the sending  
+The [`MessageService.java`](https://github.com/insogin/AppChatRoom_6.3/blob/HEAD/src/com/wenjin/service/MessageService.java) builds the connection to the server and handle the sending  
 and receiving messages.
 
 #### RegisterService.java
-The [`RegisterService.java`](https://github.com/insogin/AppChatRoom_6.3/blob/master/src/com/wenjin/service/RegisterService.java) handles the register message of a new user.
+The [`RegisterService.java`](https://github.com/insogin/AppChatRoom_6.3/blob/HEAD/src/com/wenjin/service/RegisterService.java) handles the register message of a new user.
 
 #### UserService.java
-The [`UserService.java`](https://github.com/insogin/AppChatRoom_6.3/blob/master/src/com/wenjin/service/UserService.java) is a class of tool to deal with data stream.
+The [`UserService.java`](https://github.com/insogin/AppChatRoom_6.3/blob/HEAD/src/com/wenjin/service/UserService.java) is a class of tool to deal with data stream.
 
 #### ExpressionUtil.java
-THe [`ExpressionUtil.java`](https://github.com/insogin/AppChatRoom_6.3/blob/master/src/com/wenjin/tool/ExpressionUtil.java) is used to handle the message of expression.
+THe [`ExpressionUtil.java`](https://github.com/insogin/AppChatRoom_6.3/blob/HEAD/src/com/wenjin/tool/ExpressionUtil.java) is used to handle the message of expression.
 
 #### StreamTool.java
-[`StreamTool`](https://github.com/insogin/AppChatRoom_6.3/blob/master/src/com/wenjin/tool/StreamTool.java)
+[`StreamTool`](https://github.com/insogin/AppChatRoom_6.3/blob/HEAD/src/com/wenjin/tool/StreamTool.java)
 
 
 
